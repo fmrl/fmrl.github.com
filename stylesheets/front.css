@@ -1,0 +1,91 @@
+/* color theme: http://kuler.adobe.com/#themeID/1921635 */
+
+body, html 
+{
+   margin: 0;
+   padding: 0;
+   color: black;
+   font-family: "Gentium Basic", "Fanwood Text", serif;
+   /*background-image: url(/images/patterncooler.com/oriental-wave-and-dot-light.png); */
+   background-image: url(/images/patterncooler.com/oriental-wave-and-dot-light.png); 
+   background-repeat: repeat;
+}
+
+a:link 
+{
+   color: #49604f;
+   text-decoration: underline;
+}
+ 
+a:visited 
+{
+   color: #738774;
+   text-decoration: underline;
+}
+ 
+a:hover 
+{
+   color: #738774;
+   text-decoration: underline;
+}
+ 
+/*
+a:active 
+{
+   color: black;
+   text-decoration: underline;
+} 
+*/
+
+h1.title
+{
+   font-size: 64px;
+   font-weight: bold;
+   color: #8a947e;
+   margin-bottom: 0;
+}
+
+.author
+{
+   font-weight: bold;
+}
+
+#main 
+{
+   height: 100%;
+   width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   display: block;
+   background: #fdfdfb;
+}
+
+#left-column 
+{
+   width: 33%;
+   height: 100%;
+   border-right: 4px solid #8a947e;
+   float: left;
+}
+ 
+#right-column 
+{
+   width: 66%;
+   float: right;
+}
+
+#left-content
+{
+   text-align: right;
+   padding-left: 2em;
+   padding-right: 1em;
+}
+
+#right-content
+{
+   padding-left: 1em;
+   padding-right: 4em;
+}
+
